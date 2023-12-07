@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header{
+    height: 72px;
+    padding: 24px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    height: 24px;
+}
+header .search{
+    background-color: #F2F2F2;
+    border-radius: 21px;
+    padding-left: 20px;
+    height: 42px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+header .search input{    
+    font-size: 14px;
+    font-weight: 500;
+    color: #5C5C5C;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+header .create-ac{
+    font-size: 16px;
+    font-weight: 700;
+    color: #2E2E2E;
+    display: flex;
+    align-items: center;
+}
+header .create-ac span{
+    color: #2F6CE5;
+}
+header .create-ac img{
+    height: 24px;
+    width: 24px;
+}
+
+/* hero  */
+.hero{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%), url('./assets/img/hero-1.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 440px;
+      margin: 0;
+}
+.hero{    
+    padding-top:calc(358px - 72px) ;
+    padding-left:200px;
+    color: #ffffff;
+}
+.hero h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.hero p{
+    font-size: 18px;
+    font-weight: 400;
+}
